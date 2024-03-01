@@ -19,5 +19,6 @@
     .app,
     .app_body {
         width: 100vw;
+        padding: 0px;
     }
 }
