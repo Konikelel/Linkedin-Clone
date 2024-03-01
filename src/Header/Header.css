@@ -74,4 +74,9 @@
         width: 100%;
         justify-content: space-evenly;
     }
+
+    .header__right > .headerOption {
+        margin: auto;
+        padding: 0px;
+    }
 }
