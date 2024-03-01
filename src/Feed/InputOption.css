@@ -1,0 +1,37 @@
+.inputOption {
+    display: flex;
+    align-items: center;
+    margin-top: 15px;
+    color: grey;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.inputOption:hover {
+    background-color: whitesmoke;
+    border-radius: 10px;
+}
+
+.inputOption > h4 {
+    margin-left: 5px;
+}
+
+@media only screen and (max-width: 950px) {
+    .inputOption > h4 {
+        font-size: 11px;
+    }
+
+    .inputOption > .MuiSvgIcon-root {
+        font-size: 20px;
+    }
+}
+
+@media only screen and (max-width: 725px) {
+    .inputOption > h4 {
+        font-size: 9px;
+    }
+
+    .inputOption > .MuiSvgIcon-root {
+        font-size: 18px;
+    }
+}

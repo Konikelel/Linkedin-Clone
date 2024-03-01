@@ -1,0 +1,23 @@
+.app {
+    min-height: 100vh;
+    background-color: #f3f2ef;
+    display: flex;
+    flex-direction: column;
+}
+
+.app_body {
+    display: flex;
+    justify-content: center;
+    margin-top: 35px;
+    max-width: 1200px;
+    margin: auto;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+@media only screen and (max-width: 650px) {
+    .app,
+    .app_body {
+        width: 100vw;
+    }
+}
